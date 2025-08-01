@@ -1,6 +1,6 @@
 {
-	"author": "Diego Guevara",
     "name": "fcc-learn-npm-package-json",
+	"author": "DiegoGuevara",
     "description": "A boilerplate for learning npm package.json",
     "main": "server.js",
     "scripts": {

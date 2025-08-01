@@ -53,6 +53,11 @@ app.use(function(err, req, res, next) {
   }  
 })
 
+app.get('/package', (req, res) => {
+  const packageJson = require('./package.json');
+  res.json(packageJson);
+});
+
 //Listen on port set in environment variable or default to 3000
 const listener = app.listen(process.env.PORT || 3000, function () {
   console.log("Node.js listening on port " + listener.address().port);

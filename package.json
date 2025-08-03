@@ -3,6 +3,7 @@
 	"author": "Diego Guevara",
     "description": "An app that does something",
     "keywords": ["descriptive", "boilerplate", "freecodecamp"],
+    "license": "MIT",
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {

@@ -1,7 +1,8 @@
 {
     "name": "fcc-learn-npm-package-json",
 	"author": "Diego Guevara",
-    "description": "An app that does something hehe",
+    "description": "An app that does something",
+    "keywords": ["descriptive, boilerplate, npm"],
     "version": "1.0.0",
     "main": "server.js",
     "scripts": {
